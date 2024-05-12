@@ -21,6 +21,10 @@ const Register = () => {
       register(values);
     },
   });
+
+  //untuk mengecek apakah ada error di formik
+  console.log(formik.errors);
+
   return (
     <>
       <main className="container mx-auto h-[90vh] px-4">
